@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e23da33a86.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section -->
@@ -14,15 +15,13 @@
             <p class="header-description">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words
             </p>
-            <p>
-                <button class="header-btn">Contract us</button>
-            </p>
+            <button class="header-btn">Contact us</button>
         </div>
     </header>
     <!-- main section -->
     <main class="main">
         <section class="content">
-            <div class="header-content-image">
+            <div class="content-image">
                 <img src="./images/man.png" alt="man picture">
             </div>
             <div class="banner">
@@ -40,39 +39,39 @@
             </div>
         </section>
         <!-- My plans -->
-        <h3 class="plan-title">My Plans</h3>
-        <div class="plan-contains">
-            <img src="./images/web.png" alt="web pic" class="web">
-            <img src="./images/javascript.png" alt="js pic" class="javascript">
-            <img src="./images/smoking.png" alt="smoking pic">
-            <img src="./images/e-commerce.png" alt="e-commerce pic" class="e-commerce">
-        </div>
-        <div class="title">
-            <p class="sub-title">Web Development</p>
-            <p class="sub-title">Javascript</p>
-            <p class="sub-title">Smoking Habit</p>
-            <p class="sub-title">eCommerce</p>
-        </div>
-        <div class="plan-title-description">
-            <h5 class="web-description">I want to start</h5>
-            <h5 class="js-description">I want to learn</h5>
-            <h5 class="smoke-description">I want to end.</h5>
-            <h5 class="e-description">I want to develop</h5>
-        </div>
-        <!-- contract section -->
-        <div>
-            <div class="Contract">
-                <p class="contract-description">Always keep a positive mindset</p>
-                <p>
-                    <button class="contract-btn" type="button">Call now</button>
-                </p>
+        <section> 
+            <h3 class="plan-title">My Plans</h3>
+            <div class="plan-contains">
+                <img src="./images/web.png" alt="web pic" class="web">
+                <img src="./images/javascript.png" alt="js pic" class="javascript">
+                <img src="./images/smoking.png" alt="smoking pic">
+                <img src="./images/e-commerce.png" alt="e-commerce pic" class="e-commerce">
             </div>
-        </div>
+            <div class="img-title">
+                <p class="sub-title">Web Development</p>
+                <p class="sub-title">Javascript</p>
+                <p class="sub-title">Smoking Habit</p>
+                <p class="sub-title">eCommerce</p>
+            </div>
+            <div class="plan-title-description">
+                <h5 class="web-description">I want to start</h5>
+                <h5 class="js-description">I want to learn</h5>
+                <h5 class="smoke-description">I want to end.</h5>
+                <h5 class="e-description">I want to develop</h5>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section>
+            <div class="Contact">
+                <h2 class="contact-description">Always keep a positive mindset</h2>
+                <button class="contact-btn" type="button">Call now</button>
+            </div>
+        </section>
     </main>
     <!-- footer section -->
     <footer class="footer">
-        <section class="footer-title">
-            <h3 class="footer-sub-title">Future</h3>
+        <section class="footer-contain">
+            <h3 class="footer-title">Future</h3>
             <p class="footer-description">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
             </p>
@@ -91,10 +90,8 @@
         <!-- subscribe part -->
         <section class="subscribe">
             <h3 class="subscribe-title">Subscribe</h3>
-            <input type="email" placeholder="inter your name" class="email-from">
-            <br>
-            <br>
-            <input type="submit" value="Subscribe" class="submit">
+            <input type="email" placeholder="Enter your name" class="email-form">
+            <input type="submit" value="subscribe" class="submit">
         </section>
     </footer>
 </body>
