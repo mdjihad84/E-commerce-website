@@ -83,16 +83,16 @@ ul li i {
     color: #16d887;
 }
 /* My plans */
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+}
 .plan-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
     margin-top: 130px;
-}
-.plan-contains {
-    display: flex;
-    justify-content: space-between;
 }
 .web {
     position: relative;
@@ -104,11 +104,22 @@ ul li i {
 }
 .e-commerce {
     position: relative;
-    right: 50px;
+    right: -20px;
 }
 .img-title {
-    display: flex;
     justify-content: space-between;
+}
+.js-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.smoke-title {
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
 }
 .sub-title {
     font-weight: 700;
@@ -116,34 +127,37 @@ ul li i {
     margin-top: 20px;
 }
 .plan-title-description {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
-    color: #737272;
+    justify-content: space-between;
+}
+.smoke-img {
+    margin-left: 50px;
 }
 .web-description  {
     position: absolute;
-    margin-right: 1050px;
+    margin-left: 40px;
     font-weight: 500;
     font-size: 25px;
+    color:  #737272;;
 }
 .js-description {
     margin-right: 290px;
     position: absolute;
     font-weight: 500;
     font-size: 25px;
+    color:#737272;
 }
 .smoke-description {
-    position: absolute;
-    margin-left: 410px;
     font-weight: 500;
     font-size: 25px;
+    color:#737272;
+    margin-left: 25px;
 }
 .e-description {
     position: absolute;
-    margin-left: 1150px;
     font-weight: 500;
     font-size: 25px;
+    color: #737272;
+    margin-left: -20px;
 }
 /* contract section */
 .Contact {
