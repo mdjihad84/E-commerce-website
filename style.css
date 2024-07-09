@@ -83,10 +83,6 @@ ul li i {
     color: #16d887;
 }
 /* My plans */
-.plan-content {
-    display: flex;
-    justify-content: space-between;
-}
 .plan-title {
     text-align: center;
     font-weight: 700;
@@ -94,76 +90,26 @@ ul li i {
     margin-bottom: 50px;
     margin-top: 130px;
 }
-.plan-content-description {
-    text-align: center;
-}
-.web {
-    position: relative;
-    left: 70px;
-}
-.javascript {
-    position: relative;
-    left: 45px;
-}
-.e-commerce {
-    position: relative;
-    right: -20px;
-}
-.img-title {
+.plan-content {
+    display: flex;
     justify-content: space-between;
 }
-.js-title {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.smoke-title {
-    margin-right: 30px;
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
+.plan-content-description {
+    text-align: center;
 }
 .sub-title {
     font-weight: 700;
     font-size: 30px;
     margin-top: 20px;
 }
-.plan-title-description {
-    justify-content: space-between;
-}
-.smoke-img {
-    margin-left: 50px;
-}
-.web-description  {
+.plan-description  {
     position: absolute;
-    margin-left: 40px;
     font-weight: 500;
     font-size: 25px;
     color:  #737272;;
 }
-.js-description {
-    margin-right: 290px;
-    position: absolute;
-    font-weight: 500;
-    font-size: 25px;
-    color:#737272;
-}
-.smoke-description {
-    font-weight: 500;
-    font-size: 25px;
-    color:#737272;
-    margin-left: 25px;
-}
-.e-description {
-    position: absolute;
-    font-weight: 500;
-    font-size: 25px;
-    color: #737272;
-    margin-left: -20px;
-}
 /* contract section */
-.Contact {
+.contact {
     background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 50%), url('./images/handwatch.png');
     padding: 10px 65px 85px 65px;
     width: 1500px;
@@ -205,23 +151,21 @@ ul li i {
     font-size: 45px;
     line-height: 80px;
 }
-.footer-description {
+.text-white {
+    margin-top: 10px;
     margin-right: 250px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
 }
-.footer-address {
-    margin-top: 10px;
-}
 .footer-icon {
     gap: 20px;
-    margin-top: 30px;
     display: flex;
 }
 /* subscribe part */
 .subscribe {
     color: white;
+    margin-top: 30px;
 }
 .subscribe-title {
     font-weight: 600;
