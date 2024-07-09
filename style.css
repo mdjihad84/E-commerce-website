@@ -94,6 +94,9 @@ ul li i {
     margin-bottom: 50px;
     margin-top: 130px;
 }
+.plan-content-description {
+    text-align: center;
+}
 .web {
     position: relative;
     left: 70px;
